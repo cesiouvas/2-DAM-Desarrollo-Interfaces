@@ -1,0 +1,56 @@
+//Apuntes de Arrays
+
+//Declarar
+let j = new Array();
+console.log(a); // --> Imprime el contenido del array
+
+console.log(a.length); // --> Longitud del array
+
+a.push("a"); // --> Añade ese valor al final del array
+a.unshift("A"); // --> Añade ese valor al principio del array
+
+a.pop(); // --> Elimina el último valor del array
+a.shift(); // --> Elimina el primer valor del array
+
+console.log(a.toString()); // --> Imprime el array completo sin "[]"
+
+console.log(a.join(" -- ")); // --> Imprime el array separado por " -- "
+
+//Concatenar
+let b = ["a","b"];
+let c = ["c","d"];
+let d = b.concat(c); 
+//Al imprimir "d" saldrán los arrays "b" y "c" concatenados
+
+
+//Ordenar arrays
+let a = [20, 6, 100, 51, 28, 9];
+a.sort(); 
+console.log(a); 
+
+a.sort(function (n1, n2) {
+    return n1 - n2;
+});
+console.log(a);
+
+//for, forEach y map
+let p = [4, 21, 33, 12, 9, 54];
+let f = new Array();
+let u = new Array();
+
+for (let i = 0; i < a.length; i++) {
+    u.push(p[i]*2);
+}
+console.log(u);
+
+p.forEach(function (num) {
+    f.push(num*2);
+})
+console.log(f);
+
+let e = p.map(function (num) {
+    return num * 2;
+});
+console.log(e);
+
+
