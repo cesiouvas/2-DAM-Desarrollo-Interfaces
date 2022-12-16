@@ -1,0 +1,16 @@
+{
+  "name": "encuesta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@electron/remote": "^2.0.9",
+    "electron": "^21.1.0",
+    "mongodb": "^4.12.1"
+  }
+}
