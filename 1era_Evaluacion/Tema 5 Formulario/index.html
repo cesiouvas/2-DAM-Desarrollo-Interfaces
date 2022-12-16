@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/photon.css">
+    <title>Clientes</title>
+</head>
+
+<body>
+    <div class="window">
+        <header class="toolbar toolbar-header">
+            <h1 class="title">Clientes</h1>
+        </header>
+        <div class="window-content">
+            <div class="padded-more">
+                <!-- Campo para el DNI -->
+                <div class="form-group">
+                    <label>DNI</label>
+                    <input type="text" class="form-control" id="dni">
+                </div>
+
+                <!-- Campo para el Nombre -->
+                <div class="form-group">
+                    <label>Nombre</label>
+                    <input type="text" class="form-control" id="nom">
+                </div>
+
+                <!-- Campo para el Teléfono -->
+                <div class="form-group">
+                    <label>Teléfono</label>
+                    <input type="text" class="form-control" id="tlf">
+                </div>
+
+                <!-- BOTONES -->
+                <button class="btn btn-large btn-primary" id="prim">
+                    <span class="icon icon-to-start"></span>
+                </button>
+
+                <button class="btn btn-large btn-primary" id="ant">
+                    <span class="icon icon-left"></span>
+                </button>
+
+                <button class="btn btn-large btn-primary" id="sig">
+                    <span class="icon icon-right"></span>
+                </button>
+
+                <button class="btn btn-large btn-primary" id="fin">
+                    <span class="icon icon-to-end"></span>
+                </button>
+
+                <button class="btn btn-large btn-primary" id="del">
+                    <span class="icon icon-erase"></span>
+                </button>
+
+                <button class="btn btn-large btn-primary" id="insert">
+                    <span class="icon icon-folder"></span>
+                </button>
+
+                <button class="btn btn-large btn-primary" id="upload">
+                    <span class="icon icon-floppy"></span>
+                </button>
+            </div>
+        </div>
+        <footer class="toolbar toolbar-footer">
+            <h1 class="title">Formulario clientes usando ficheros JSON</h1>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
