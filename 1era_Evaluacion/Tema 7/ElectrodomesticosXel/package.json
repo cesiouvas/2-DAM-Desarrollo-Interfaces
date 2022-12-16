@@ -1,0 +1,16 @@
+{
+  "name": "plantilla",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "elecron": "^0.0.1-security",
+    "electron": "^21.2.1",
+    "xel": "^0.17.5"
+  }
+}

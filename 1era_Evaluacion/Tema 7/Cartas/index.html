@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/photon.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>Cartas</title>
+</head>
+
+<body>
+    <div class="window">
+        <header class="toolbar toolbar-header">
+            <h1 class="title"></h1>
+        </header>
+        <div class="window-content">
+            <div class="pane-group">
+                <div class="pane-sm sidebar">
+                    <h2>Crédito:</h1>
+                    <div id="credito"></div>
+                    <hr>
+                    <label>Apuesta</label>
+                    <input id="apuesta" type="number" class="form-control">
+                    <br>
+                    <!-- SELECCIÓN DE PALOS -->
+                    <select id="palo" class="form-control">
+                        <option value="bastos">Bastos</option>
+                        <option value="oros">Oros</option>
+                        <option value="copas">Copas</option>
+                        <option value="espadas">Espadas</option>
+                    </select>
+
+                    <hr>
+                    <button class="btn btn-large btn-positive" id="btnApostar">Apostar</button>
+                    <button class="btn btn-large btn-positive" id="reset">Reset</button>
+
+                </div>
+                <div class="pane wrapper">
+                    <!-- IMÁGENES DE LAS CARTAS -->
+                    <img id="img1" src="./images/dorso.png" alt="">
+                    <img id="img2" src="./images/dorso.png" alt="">
+                    <img id="img3" src="./images/dorso.png" alt="">
+                    <img id="img4" src="./images/dorso.png" alt="">
+                    <img id="img5" src="./images/dorso.png" alt="">
+                    <img id="img6" src="./images/dorso.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <x-notification id='noti' timeout="3000"></x-notification>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
